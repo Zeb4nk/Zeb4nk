@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋.
 
 <!--
 **Zeb4nk/Zeb4nk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
