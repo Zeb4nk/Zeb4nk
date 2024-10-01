@@ -43,5 +43,5 @@ def flood(target: str) -> None:
         status = (
             f"{color_code[response.status_code == 200]}Status: [{response.status_code}]"
         )
-        payload_size = f"{F.RESET} Requested Data Size: {F.CYAN}{round(len(response.content)/1024, 2):>6} KB"
+        payload_size = f"{F.RESET} Cyber People Attack Requested Data Size: {F.CYAN}{round(len(response.content)/1024, 2):>6} KB"
         print(f"{status}{F.RESET} --> {payload_size} {F.RESET}")
