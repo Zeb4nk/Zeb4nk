@@ -14,31 +14,34 @@ def show_logo() -> None:
     Returns:
         None
     """
-    logo = """"\033[5m"
-               ▒▒████████      ▒▒█████████      ▒▒████████
-              ▒▒██     ▒▒█      ▒▒██   ▒▒██      ▒▒██  ▒▒██
-             ▒▒██               ▒▒██   ▒▒██      ▒▒██  ▒▒██
-             ▒▒██               ▒▒██▒█████       ▒▒████████
-              ▒▒██     ▒▒█      ▒▒██             ▒▒██  ▒▒██
-               ▒▒████████      ▒▒███            ▒▒███  ▒▒██  V.02
+    logo = """"\033[31m"
+               ▒▒██████\033[30m██      ▒▒█████████      ▒▒████████
+              \033[31m▒▒██     ▒▒█      \033[30m▒▒██   ▒▒██      ▒▒██  ▒▒██
+             \033[31m▒▒██               ▒\033[37m▒██   ▒▒██      ▒▒██  ▒▒██
+             \033[31m▒▒██               ▒\033[37m▒██▒█████       ▒▒████████
+              \033[31m▒▒██     ▒▒█      \033[32m▒▒██             ▒▒██  ▒▒██
+               \033[31m▒▒██████\033[32m██      ▒▒███            ▒▒███  ▒▒██  \033[33mV.02.1
            
-           --------------- CYBER PEOPLE ATTACK ---------------
+           \033[36m---------------⚔️⚔️ \033[32mCYBER PEOPLE ATTACK \033[36m⚔️⚔️---------------
  
- ====================================|
- Mod --->>>> Abdullah Al Asad        |
- just for CPA members.               |
- This tool can detect existing sites |
- ====================================|
+ \033[34m=============================================|
+ \033[33m-> Mod 1 : \033[32mAbdullah Al Asad                  \033[34m|
+ \033[33m-> Mod 2 : \033[32mZeb4nk                            \033[34m|
+ \033[33m       ------"WARNING"------                 \033[34m|
+ \033[33m-> This Tools just for CPA members           \033[34m|
+ \033[33m-> This Tools just for Attacking zionis sites\033[34m|
+ \033[33m-> This Tools can detect existing sites      \033[34m|
+ \033[34m=============================================|
  """
 
     print(f"{F.GREEN}{logo}")
-    print("├─── DOS TOOL")
-    print("├─── AVAILABLE METHODS")
-    print("├───├ LAYER 7: ")
-    print("    ├───>>>> - HTTP -")
-    print("    ├───>>>> - HTTP-PROXY -")
-    print("    ├───>>>> - SLOWLORIS -")
-    print("    ├───>>>> - SLOWLORIS-PROXY -")
-    print("    ├")
+    print("\033[36m├─── \033[33mDOS TOOL")
+    print("\033[36m├─── \033[33mAVAILABLE METHODS")
+    print("\033[36m├───├ \033[33mLAYER 7: ")
+    print("    \033[36m├───>>>> \033[31m- HTTP -")
+    print("    \033[36m├───>>>> \033[31m- HTTP-PROXY -")
+    print("    \033[36m├───>>>> \033[31m- SLOWLORIS -")
+    print("    \033[36m├───XxxX \033[33m- use the method according to your needs -")
+    print("    \033[36├")
 
-  
+    
